@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust programming: panicking due to accessing a vector element at an out-of-bounds index.  The `bug.rs` file contains code that will panic if the index used to access the vector is greater than or equal to the vector's length.  The `bugSolution.rs` file shows a corrected version of the code using safe methods to avoid the panic.
